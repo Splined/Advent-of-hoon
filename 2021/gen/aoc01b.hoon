@@ -1,3 +1,6 @@
+::  Advent of code. --- Day 1: Sonar Sweep ---
+::  https://adventofcode.com/2021/day/1
+::
 /*  input  %txt   /lib/aoc/day1/txt
 :-  %say
 |=  *
@@ -18,6 +21,7 @@
   |=  inp=(list @t)
   ^-  (list @ud)
   (turn inp |=(a=@t (rash a dem)))
+::  use roll to create new list with rolling sum
 ++  rinput
   |=  inp=(list @ud)
   =|  rlist=(list @ud)
